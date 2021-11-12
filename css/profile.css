@@ -1,0 +1,168 @@
+body{
+    background-color: #F7F9FC!important;
+}
+
+.profile-column{
+    width: 100%;
+    height: auto;
+    
+    
+    
+}
+
+.profile-column img{
+    width: 100%;
+    border-radius: 5px;    
+   
+}
+.profile-column .border{
+    border-bottom: 1px solid gray;
+    margin-bottom: 1.5rem;
+    width: 85%;
+}
+.profile-column p{
+    
+}
+
+.profile-column-center{
+    border-radius: 5px;
+    box-shadow: -2px 2px 5px rgba(128, 128, 128, 0.686);
+    background-color: white;
+
+}
+
+.profile-column-center button{
+    color: white;
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(218, 81, 81);
+    border-radius: 5px;
+    box-shadow: -2px 2px 3px rgba(128, 128, 128, 0.686);
+}
+
+.profile-galery{
+    border: 1px solid lightgray;
+}
+
+.profile-galery img{
+    width: 19%;
+    margin: 2px;
+}
+
+.banner{
+    width: 100%;
+    height: 120px;
+    background-image: url(../img/carousel-1.jpg);
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+@media (max-width: 776px){
+    .profile-flex{
+        display: block!important;
+        overflow: hidden;
+    }
+
+    .profile-column img{
+        width: 50%;
+        margin-left: 25%;
+        
+    }
+
+    .profile-column-center button{
+        
+    }
+
+    .banner{
+        margin-top: 0;
+    }
+}
+
+
+
+/* Página de servicios */
+
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.services-list h3{
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.services-list li{
+    list-style: none;
+}
+
+
+
+@media (max-width: 776px){
+    .services-list{
+        display: block;
+    }
+}
+
+
+
+.profesionales h3{
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.area{
+    margin-bottom: 30px;
+}
+.cards-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.profesionales .pro-card{    
+    border-radius: 5px;
+    padding: 15px;
+    display: inline-block;
+    width: auto;
+    background: #ffffff;
+    box-shadow: -1px 1px 3px gray;
+}
+
+.profesionales .pro-card img{
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+
+.profesionales .pro-card .text-card{
+    align-self: center;
+}
+
+.profesionales .pro-card .text-card a{
+    background: #092A49;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+@media (max-width: 992px){
+    .cards-area{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 776px){
+    .cards-area{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+
