@@ -13,7 +13,7 @@
     <meta property="og:title" content="Apóyate en Santander" />
     <meta property="og:Author" content="Apóyate en Santander" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://apoyatesantander.com/perfil/adriana-tello" />
+    <meta property="og:url" content="https://apoyatensantander.com" />
     <meta property="og:image" content="../img/adrianaTello.jpg">
 
 
@@ -144,11 +144,39 @@
                     <div>
                         <h1>Dra. Adriana Tello</h1>
                         <p>Psicóloga - Contadora Pública</p>
-                        <p>Bucaramanga | <span><a href="#">Información de contacto</a></span></p>
+                        <p>Bucaramanga, Colombia |<a class="ml-2" id="open">Información de contacto</a></p>
+                            <div class="modal-container" id="modal_container">
+                                <div class="popUp">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h4>Dra. Adriana Tello</h4>
+                                        <p>Psicóloga - Contadora Pública</p>
+                                        </div>
+                                        <img class="profile-img mb-2 text-center" src="../img/adrianaTello.jpg" alt="Giovanny Moreno Marketing Digital">
+                                    </div>
+                                    <div class="col-md-8 border pb-2 mt-2 popUp-card">
+                                        <div class="popUp-contacts">
+                                            <p><i class="fa fa-phone-alt"></i> +57 315 747 5981</p>
+                                            <p><i class="fa fa-envelope"></i> atello@apoyatensantander.com</p>
+                                            <p><i class="fa fa-map-marker-alt"></i> Bucaramanga, Colombia</p>
+                                        </div>                                        
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="popUp-media">
+                                            <a href=" "><i class="fab fa-twitter "></i></a>
+                                            <a href=" "><i class="fab fa-facebook-f "></i></a>
+                                            <a href=" "><i class="fab fa-youtube "></i></a>
+                                            <a href=" "><i class="fab fa-instagram "></i></a>
+                                            <a href=" "><i class="fab fa-linkedin-in "></i></a>
+                                        </div>
+                                        <button class="float-right bg-danger text-white" id="close">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                     <div class="cards-area">
-                        <button class="btn-hight">Contacto</button>
-                        <button>Servicios</button>
+                        <button class="btn-hight" href="javascript:;" onclick="ml_account('webforms', '4999046', 'k5k9g2', 'show')">Solicitar Servicio</button>
+                        <button>Especialidades</button>
                     </div>
 
                     <div class="profile-minicard">
@@ -190,7 +218,7 @@
                         y asesoría en administración del talento humano, clima laboral y Bienestar laboral. Presto servicios de Visita Domiciliaria para procesos de Selección de personal.</p>
                 </div>
                 <div class="d-flex align-items-center  ">
-                    <button class="btn bg-danger text-white ">Contactar</button>
+                    <button class="btn bg-danger text-white href="javascript:;" onclick="ml_account('webforms', '4999046', 'k5k9g2', 'show')" ">Contactar</button>
                 </div>
             </div>
             <div class="profile-column profile-column-center p-4 mb-4 ">
@@ -202,9 +230,9 @@
                                 <img src="../img/icon-1.png" alt="">
                             </div>
                             <div class="experience-card">
-                                <h6>Misión Digital</h6>
-                                <p>Agencia de Marketing Digital</p>
-                                <p>Desarrollo de estrategias de Marketing para negocios y personas</p>
+                                <h6>Apóyate en Santander</h6>
+                                <p>Conectamos profesionales con empresas en toda Colombia</p>
+                                <p>Contamos con profesionales de alta calidad con la capacidad de resolver los problemas de su negocio</p>
 
                             </div>
                         </div>
@@ -213,9 +241,9 @@
                                 <img src="../img/icon-1.png" alt="">
                             </div>
                             <div class="experience-card">
-                                <h6>Desarrollo de Marca</h6>
-                                <p>Agencia de Marketing Digital</p>
-                                <p>Desarrollo de estrategias de Marketing para negocios y personas</p>
+                                <h6>Asesorías Empresariales</h6>
+                                <p>Mentorias y asesorías a empresas y personas</p>
+                                <p>Asesoramos a Negocios y emprendimientos en la consolidación de sus proyectos empresariales.</p>
                             </div>
                         </div>
 
@@ -464,17 +492,17 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
 
     <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <script src="../mail/jqBootstrapValidation.min.js"></script>
+    <script src="../mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
