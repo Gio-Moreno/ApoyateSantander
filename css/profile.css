@@ -1,129 +1,231 @@
-body{
+body {
     background-color: #F7F9FC!important;
 }
 
-.profile-column{
+.profile-column {
     width: 100%;
     height: auto;
-    
-    
-    
 }
 
-.profile-column img{
-    width: 100%;
-    border-radius: 5px;    
-   
-}
-.profile-column .border{
-    border-bottom: 1px solid gray;
-    margin-bottom: 1.5rem;
-    width: 85%;
-}
-.profile-column p{
-    
-}
-
-.profile-column-center{
-    border-radius: 5px;
-    box-shadow: -2px 2px 5px rgba(128, 128, 128, 0.686);
-    background-color: white;
-
-}
-
-.profile-column-center button{
-    color: white;
-    padding: 5px 20px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    background-color: rgb(218, 81, 81);
-    border-radius: 5px;
-    box-shadow: -2px 2px 3px rgba(128, 128, 128, 0.686);
-}
-
-.profile-galery{
+.profile-column-center {
+    border-radius: 10px;
     border: 1px solid lightgray;
+    background-color: white;
 }
 
-.profile-galery img{
-    width: 19%;
+.profile-column .profile-banner {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+    background-image: url(../img/giovanny-moreno-marketing.jpg);
+    background-position: top;
+}
+
+.profile-column .profile-banner img {}
+
+.profile-column .profile-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    margin-top: -15%;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
+.profile-column .profile-card {
+    padding-top: 0!important;
+}
+
+.profile-column h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.profile-column p {
+    margin: 0;
+}
+
+.profile-column p span a {
+    color: cornflowerblue!important;
+}
+
+.profile-column-center button {
+    /* color: white; */
+    padding: 5px 20px;
+    margin-right: 8px;
+    margin-top: 15px;
+    border-radius: 2px!important;
+    font-size: 12px;
+    border: 1px solid lightgray;
+    border-radius: 20px!important;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+
+.profile-column-center button:hover {
+    background-color: lightgrey;
+    border: 1px solid gray;
+    transition: .3s;
+}
+
+.profile-column-center .btn-hight {
+    background-color: #092A48!important;
+    color: white;
+}
+
+.profile-minicard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.profile-minicard .minicard {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.exp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.experience .experience-img {
+    width: 30%;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.experience .experience-img img {
+    width: 80%;
+}
+
+.experience .experience-card h6 {
+    margin-bottom: 7px;
+    color: rgb(0, 0, 0);
+}
+
+.experience .experience-card p {
+    padding: 0;
+    line-height: 1rem;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 776px) {
+    .container {
+        padding: 0;
+    }
+    .profile-column {
+        margin: 0;
+    }
+    .profile-minicard {
+        display: inline;
+    }
+    .profile-minicard .minicard {
+        margin-top: 15px;
+    }
+    .exp {
+        display: block;
+    }
+    .feature {
+        overflow: hidden;
+        padding: 15px;
+    }
+    .footer {
+        padding: 30px 15px;
+    }
+}
+
+.profile-galery {
+    overflow: hidden;
+}
+
+.profile-galery img {
+    height: 100px;
     margin: 2px;
 }
 
-.banner{
+.banner {
     width: 100%;
-    height: 120px;
-    background-image: url(../img/carousel-1.jpg);
-    background-repeat: no-repeat;
-    margin-top: 120px;
+    height: auto;
+    margin-top: 90px;
+    margin-bottom: 15px;
 }
 
-@media (max-width: 776px){
-    .profile-flex{
+@media (max-width: 776px) {
+    .profile-flex {
         display: block!important;
         overflow: hidden;
     }
-
-    .profile-column img{
-        width: 50%;
+    .profile-column img {
+        width: 100px;
         margin-left: 25%;
-        
     }
-
-    .profile-column-center button{
-        
-    }
-
-    .banner{
+    .profile-column-center button {}
+    .banner {
         margin-top: 0;
+        display: none;
+    }
+    .profile-galery {}
+    .profile-galery img {
+        width: auto;
+        margin-left: 0;
     }
 }
-
 
 
 /* Página de servicios */
 
-.services-list{
+.services-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.services-list h3{
+.services-list h4 {
     border-bottom: 1px solid gray;
     padding: 1rem;
     margin-bottom: 1.5rem;
 }
 
-.services-list li{
+.services-list li {
     list-style: none;
 }
 
-
-
-@media (max-width: 776px){
-    .services-list{
+@media (max-width: 776px) {
+    .services-list {
         display: block;
     }
 }
 
-
-
-.profesionales h3{
+.profesionales h3 {
     border-bottom: 1px solid gray;
     padding: 1rem;
     margin-bottom: 1.5rem;
 }
 
-.area{
+.area {
     margin-bottom: 30px;
 }
-.cards-area{
+
+.cards-area {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-.profesionales .pro-card{    
+.profesionales .pro-card {
     border-radius: 5px;
     padding: 15px;
     display: inline-block;
@@ -132,37 +234,129 @@ body{
     box-shadow: -1px 1px 3px gray;
 }
 
-.profesionales .pro-card img{
+.profesionales .pro-card img {
     width: 100px;
+    height: auto;
     margin-right: 20px;
-    border-radius: 5px;
+    border-radius: 50px;
+    border: 3px solid rgb(2, 20, 70);
 }
 
-
-.profesionales .pro-card .text-card{
+.profesionales .pro-card .text-card {
     align-self: center;
 }
 
-.profesionales .pro-card .text-card a{
+.profesionales .pro-card .text-card a {
     background: #092A49;
     color: #ffffff;
     padding: 5px 10px;
     border-radius: 5px;
-    
 }
-@media (max-width: 992px){
-    .cards-area{
+
+@media (max-width: 992px) {
+    .cards-area {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
 }
 
-@media (max-width: 776px){
-    .cards-area{
+@media (max-width: 776px) {
+    .cards-area {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
+        grid-template-columns: 1fr;
+        gap: 5px;
     }
+    .cards-area button {}
+}
 
+.sidebar {
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-bottom: 20px;
+}
 
+.solicitar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.solicitar a {
+    color: gray;
+}
+
+.solicitar .solicitar-btn {
+    font-size: 14px;
+    color: white;
+    background-color: #092A48;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+
+.separate {
+    border: 0.1px solid lightgray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.publicity {
+    Width: 100%;
+}
+
+.minicard-pro {
+    display: flex;
+    margin: 20px 0 10px 0;
+}
+
+.minicard-pro img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.minicard-pro p {
+    font-size: 0.8rem;
+}
+
+.minicard-pro button {
+    /* color: white; */
+    padding: 5px 20px;
+    margin-right: 8px;
+    margin-top: 5px;
+    font-size: 12px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+}
+
+.minicard-pro button:hover {
+    background-color: midnightblue;
+    color: white;
+    transition: 0.3s;
+}
+
+.boton-todos {
+    /* color: white; */
+    padding: 5px 20px;
+    margin-right: 8px;
+    margin-top: 5px;
+    font-size: 12px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    background-color: rgb(10, 10, 43);
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    float: right;
+}
+
+@media (max-width: 776px) {
+    .minicard-pro img {
+        margin-right: 40px
+    }
+}
