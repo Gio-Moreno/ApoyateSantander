@@ -428,6 +428,90 @@ a:focus {
     animation-duration: 1s;
 }
 
+
+#open{
+    border: none;
+    background-color: none;
+    font-weight: 300;
+    font-size: 16px;
+    color: dodgerblue;
+    padding: 0;
+    cursor: pointer;
+}
+
+#open:hover{
+    background-color: #fff;
+}
+
+
+.modal-container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+    opacity: 0;
+}
+
+.show {
+    pointer-events: auto;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.popUp{
+    background-color: rgb(245, 245, 245);
+    width: 600px;
+    max-width: 80%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: Left;
+}
+
+.popUp-card{
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.popUp- p{
+    opacity: 0.8;
+}
+
+.popUp p i{
+    margin-right: 10px;
+    color:orangered;
+}
+
+.popUp .popUp-contacts{
+    margin-top: 10px;
+    
+}
+
+.popUp .popUp-media{
+    margin-top: 10px;
+    
+}
+
+.popUp .popUp-media a{
+    margin-right: 10px;
+}
+
+.popUp .popUp-media a i{
+    color:lightseagreen;
+}
+
+.close-button{
+    
+    float: right;
+}
+
 #videoModal .modal-dialog {
     position: relative;
     max-width: 800px;
