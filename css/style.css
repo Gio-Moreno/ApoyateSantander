@@ -857,7 +857,9 @@ a:focus {
 }
 
 .about .about-text p {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 300;
+    
 }
 
 .about .about-text a.btn {
@@ -909,6 +911,7 @@ a:focus {
 .service-background{
     background: url(../img/apoyateEnSantander.jpg);
     padding: 30px;
+    
 }
 
 .servicePage-background{
@@ -938,12 +941,13 @@ a:focus {
     box-shadow: -2px 2px 5px #00000072;
     transition: .3s;
     align-items: center;
+    border-radius: 5px;
 }
 
 .service .service-item:hover {
     border-color: transparent;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
-    background: hsla(0, 0%, 100%, 0.80);
+    background: hsla(0, 0%, 84%, 0.95);
     
 }
 
@@ -956,9 +960,12 @@ a:focus {
     margin-bottom: 0px;
     font-size: 16px;
     font-weight: 500;
+    text-decoration: none;
+
     
     /* letter-spacing: 1px; */
 }
+
 
 /* .service .service-item p {
     margin-bottom: 10px;
@@ -968,7 +975,6 @@ a:focus {
 .service .service-item a {
     position: relative;
     font-size: 16px;
-    color: #0796fe;
     transition: .3s;
 }
 
@@ -979,7 +985,7 @@ a:focus {
     height: 2px;
     bottom: -3px;
     left: 10%;
-    background: #0796fe;
+    
 }
 
 .service .service-item:hover a.btn {
