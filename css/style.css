@@ -27,7 +27,7 @@ a {
     transition: .3s;
 }
 
-a:hover,z
+a:hover,
 a:active,
 a:focus {
     color: #092a49;
@@ -294,7 +294,6 @@ a:focus {
     position: relative;
     width: 100%;
     height: 442px;
-    
 }
 
 .carousel .container-fluid {
@@ -376,8 +375,6 @@ a:focus {
     transition: .3s;
 }
 
-
-
 .carousel .carousel-text .btn i {
     margin-right: 5px;
 }
@@ -428,8 +425,7 @@ a:focus {
     animation-duration: 1s;
 }
 
-
-#open{
+#open {
     border: none;
     background-color: none;
     font-weight: 300;
@@ -439,12 +435,11 @@ a:focus {
     cursor: pointer;
 }
 
-#open:hover{
+#open:hover {
     background-color: #fff;
 }
 
-
-.modal-container{
+.modal-container {
     display: flex;
     background-color: rgba(0, 0, 0, 0.7);
     align-items: center;
@@ -465,7 +460,7 @@ a:focus {
     transition: 0.2s;
 }
 
-.popUp{
+.popUp {
     background-color: rgb(245, 245, 245);
     width: 600px;
     max-width: 80%;
@@ -475,40 +470,37 @@ a:focus {
     text-align: Left;
 }
 
-.popUp-card{
+.popUp-card {
     border-radius: 10px;
     background-color: #fff;
 }
 
-.popUp- p{
+.popUp- p {
     opacity: 0.8;
 }
 
-.popUp p i{
+.popUp p i {
     margin-right: 10px;
-    color:orangered;
+    color: orangered;
 }
 
-.popUp .popUp-contacts{
+.popUp .popUp-contacts {
     margin-top: 10px;
-    
 }
 
-.popUp .popUp-media{
+.popUp .popUp-media {
     margin-top: 10px;
-    
 }
 
-.popUp .popUp-media a{
+.popUp .popUp-media a {
     margin-right: 10px;
 }
 
-.popUp .popUp-media a i{
-    color:lightseagreen;
+.popUp .popUp-media a i {
+    color: lightseagreen;
 }
 
-.close-button{
-    
+.close-button {
     float: right;
 }
 
@@ -537,8 +529,8 @@ a:focus {
     opacity: 1;
 }
 
-@media(min-width:991.98px){
-    .carousel{
+@media(min-width:991.98px) {
+    .carousel {
         min-height: 400px;
         margin-bottom: 45px;
     }
@@ -552,7 +544,6 @@ a:focus {
     }
     .carousel .carousel-text h1 {
         font-size: 35px;
-        
         bottom: 80px;
     }
     .carousel .carousel-text p {
@@ -584,7 +575,6 @@ a:focus {
 @media (max-width: 575.98px) {
     .carousel .carousel-text h1 {
         font-size: 26px;
-       
     }
     .carousel .carousel-text .btn {
         padding: 8px 20px;
@@ -602,20 +592,17 @@ a:focus {
 
 /*******************************/
 
-
-.mailer-form{
+.mailer-form {
     border: 1px solid lightgray;
     border-radius: 5px;
     box-shadow: -2px 2px 5px gray;
 }
 
-@media (max-width: 767px){
-    .form-sidebar{
+@media (max-width: 767px) {
+    .form-sidebar {
         display: none;
     }
 }
-
-
 
 
 /*******************************/
@@ -743,12 +730,12 @@ a:focus {
     border-radius: 5px;
 }
 
-
-@media (max-width:776px){
-    .options{
+@media (max-width:776px) {
+    .options {
         display: block;
     }
 }
+
 
 /*******************************/
 
@@ -800,12 +787,9 @@ a:focus {
     border-radius: 5px;
 }
 
-
-
 .fact-card p {
     margin-bottom: 0;
 }
-
 
 .fact-1 {
     display: grid;
@@ -833,7 +817,7 @@ a:focus {
 .fact-item-4 {
     background-image: url(../img/carousel-1.jpg);
     border: 1px solid rgba(155, 155, 155, 0.6);
-    background-position:right;
+    background-position: right;
 }
 
 .fact-item-5 {
@@ -852,13 +836,13 @@ a:focus {
     background-repeat: no-repeat;
 }
 
-.area-card{
+.area-card {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.95));
     padding: 10px;
     margin-bottom: 30px;
 }
 
-.area-card h3{
+.area-card h3 {
     color: rgb(9, 42, 73);
     font-weight: 600;
     margin-top: 0px;
@@ -943,7 +927,6 @@ a:focus {
 .about .about-text p {
     font-size: 20px;
     font-weight: 300;
-    
 }
 
 .about .about-text a.btn {
@@ -973,9 +956,10 @@ a:focus {
     }
 }
 
-.valores img{
+.valores img {
     width: 100%;
 }
+
 
 /*******************************/
 
@@ -989,25 +973,24 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 10px;
-   
 }
 
-.service-background{
+.service-background {
     background: url(../img/apoyateEnSantander.jpg);
     padding: 30px;
-    
 }
 
-.servicePage-background{
+.servicePage-background {
     background-image: none;
     padding: 30px;
 }
-.service .container .section-header{
-    border-image: repeating-linear-gradient( 60deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05) 1.5%, rgba(0, 0, 0,) 1.5%, rgba(0, 0, 0) 3%) 30;
-    
+
+.service .container .section-header {
+    border-image: repeating-linear-gradient( 60deg, rgba(0, 0, 0, .05), rgba(0, 0, 0, .05) 1.5%, rgba(0, 0, 0, ) 1.5%, rgba(0, 0, 0) 3%) 30;
 }
 
-.service .section-header p, .service .section-header h2{
+.service .section-header p,
+.service .section-header h2 {
     color: white;
     font-weight: 400;
     text-shadow: -1px 1px 0 black;
@@ -1017,7 +1000,7 @@ a:focus {
     display: flex;
     width: 100%;
     margin-bottom: 10px;
-    padding: 15px;    
+    padding: 15px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, .1);
     background: #ffffff;
@@ -1032,7 +1015,6 @@ a:focus {
     border-color: transparent;
     box-shadow: 0 0 30px rgba(0, 0, 0, .1);
     background: hsla(0, 0%, 84%, 0.95);
-    
 }
 
 .service .service-item img {
@@ -1045,8 +1027,6 @@ a:focus {
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
-
-    
     /* letter-spacing: 1px; */
 }
 
@@ -1069,7 +1049,6 @@ a:focus {
     height: 2px;
     bottom: -3px;
     left: 10%;
-    
 }
 
 .service .service-item:hover a.btn {
@@ -1184,17 +1163,13 @@ a:focus {
     padding: 45px 0 15px 0;
 }
 
-
-
 .team .team-item {
     position: relative;
     margin-bottom: 75px;
-    
 }
 
 .team .team-img {
     position: relative;
-    
 }
 
 .team .team-img img {
@@ -1202,9 +1177,7 @@ a:focus {
     border-top-left-radius: 3%;
     border-top-right-radius: 3%;
     box-shadow: -5px 5px 5px hsla(0, 0%, 0%, .6);
-    
 }
-
 
 .team .team-text {
     position: absolute;
@@ -1859,7 +1832,6 @@ a:focus {
 .footer .footer-newsletter .form {
     position: relative;
     width: 100%;
-    
 }
 
 .footer .footer-newsletter input {
