@@ -218,6 +218,11 @@ body {
     }
 }
 
+.profesionales {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
 .profesionales h3 {
     border-bottom: 1px solid gray;
     padding: 1rem;
@@ -251,7 +256,6 @@ body {
     align-self: center;
     display: flex;
     width: 100%;
-    justify-content: space-between;
 }
 
 .profesionales .pro-card .text-card h6 {
@@ -268,7 +272,8 @@ body {
     border-radius: 25px;
     padding: 5px 12px;
     margin: 0;
-    font-size: 13px;
+    margin-left: 20px;
+    font-size: 10px;
 }
 
 .profesionales .pro-card .text-card a:hover {
@@ -292,15 +297,62 @@ body {
     .cards-area button {}
 }
 
-.adsBanner {
-    width: 100vw;
-    height: Auto;
-    background-color: red;
+.bane {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    background: linear-gradient(to right, #29C7EB, #108ca7);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.bane h3 {
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 10px;
+    color: #fff;
+    border: none;
+    padding: 0;
+    text-shadow: 0 0 3px gray;
+}
+
+.bane h6 {
+    line-height: 1, 2rem;
+    color: rgb(60, 60, 60);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.bane a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 0 3px black;
+    background-color: orangered;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.bane a:hover {
+    background-color: hsl(16, 100%, 50%, 0.7);
+}
+
+.bane .bane-img {
+    margin: 0 auto;
+}
+
+.bane img {
+    height: 150px;
+}
+
+@media (max-width:776px) {
+    .bane .bane-img {
+        display: none;
+    }
 }
 
 .sidebar {
     border-radius: 10px;
-    border: 1px solid lightgray;
     background-color: white;
     margin-bottom: 20px;
 }
